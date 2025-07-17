@@ -1,8 +1,9 @@
 body{
     margin: 0;
     background-image: url(Background_Image.jpg);
-    background-position-x: -400px;
-    background-position-y: -1525px;
+    background-size: cover;
+    //background-position-x: -400px;
+    background-position-y: -1600px;
     background-attachment: fixed;
     background-color: rgba(240, 248, 255, 0.562);
     background-blend-mode: overlay;
@@ -80,7 +81,7 @@ footer{
     margin: 0;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1000px){
     aside, section, article, .navbar{
         width: 100%
     }

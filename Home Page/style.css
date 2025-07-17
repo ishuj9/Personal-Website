@@ -1,10 +1,16 @@
 body{
     margin: 0;
+    background-image: url(Background_Image.jpg);
+    background-position-x: -400px;
+    background-position-y: -1525px;
+    background-attachment: fixed;
+    background-color: rgba(240, 248, 255, 0.562);
+    background-blend-mode: overlay;
 }
 
 header{
     background-color: rgb(255, 255, 255);
-    padding: 5px;
+    padding-left: 20px;
     margin: 0;
 }
 
@@ -23,6 +29,9 @@ h4{
     height: auto;
     width: 500px;
     float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
 
 }
 
@@ -46,6 +55,10 @@ article{
     float: left;
     margin-left: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(240, 248, 255, 0.507);
 }
 
 body{
@@ -55,4 +68,23 @@ body{
 img{
     max-width: 100%;
     height: auto;
+    display: block;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.753);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width:600px){
+    aside, section, article, .navbar{
+        width: 100%
+    }
+    .navbar{
+        float: left;
+    }
 }
